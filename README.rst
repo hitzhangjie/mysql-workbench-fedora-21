@@ -1,3 +1,12 @@
+MySQL Workbench 6.2.4 [Fedora 21]
+
+Rebuild fixed bug empty result grid.
+
+How to install:
+ * yum install libiodbc.x86_64 gdal-libs.x86_64
+ * rpm -Uvh mysql-connector-c++-1.1.5-1.fc21.x86_64.rpm
+ * rpm -Uvh mysql-workbench-community-6.2.4-1.fc21.x86_64.rpm
+
 How to use:
 
  * Download mysql-workbench-community-6.2.4-1.fc20.src.rpm from http://dev.mysql.com/downloads/workbench/ by choosing Source Code
