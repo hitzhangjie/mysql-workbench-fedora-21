@@ -1,3 +1,7 @@
+
+之前的mysql-connector-c++缺少了必要的头文件/usr/include/cppconn,现在添加的
+1.1.7版本的rpm包,包括了该头文件.
+
 MySQL Workbench 6.2.4 [Fedora 21]
 
 Rebuild fixed bug empty result grid.
@@ -36,3 +40,4 @@ How to use:
  * mock -r fedora-21-x86_64 --no-clean ~/rpmbuild/SRPMS/mysql-workbench-community-6.2.4-1.fc21.src.rpm --define 'release 1'
 
  * Now you should have a RPM in /var/lib/mock/fedora-21-x86_64/result/
+
